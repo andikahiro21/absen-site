@@ -1,4 +1,23 @@
+@import url("https://fonts.google.com/specimen/Nunito");
+* {
+  font-family: "Nunito", sans-serif;
+}
+
 .check {
-  background-color: red;
   margin-left: 220px;
+}
+.check .headers {
+  padding-left: 4%;
+  padding-top: 2%;
+}
+.check .headers h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.check .cardContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 50px 0px;
+  padding-top: 20px;
+  padding-left: 50px;
 }/*# sourceMappingURL=check.css.map */

@@ -1,0 +1,36 @@
+@import url("https://fonts.google.com/specimen/Nunito");
+.card {
+  box-shadow: 5px 5px 22px 0px rgba(0, 0, 0, 0.238);
+}
+.card .cardContent {
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+.card .cardContent h1 {
+  color: white;
+  font-weight: 800;
+  font-size: 15px;
+  font-weight: 1000;
+}
+.card .cardContent h2 {
+  margin-top: 5px;
+  color: #ffe7ff;
+  font-size: 10px;
+  font-weight: 1000;
+}
+.card .buttonContainer {
+  margin-left: 10px;
+}
+.card .buttonContainer button {
+  background: none;
+  outline: none;
+  border: 1px solid #ffe7ff;
+  color: #ffe7ff;
+  width: 90px;
+  height: 25px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.card .buttonContainer button:hover {
+  filter: brightness(90%);
+}/*# sourceMappingURL=cardComponent.css.map */
