@@ -2,17 +2,66 @@
   "absent": [
     {
       "id": 1,
-      "nama": "Andika Hiro Pratama",
-      "checkin": "2023-11-03T16:09:03",
-      "checkout": "",
+      "name": "Andika Hiro Pratama",
+      "checkin": "2023-11-02T15:30:00",
+      "checkout": "2023-11-02T16:30:00",
       "status": "checkin"
     },
     {
       "id": 2,
-      "nama": "",
-      "checkin": "2023-11-03T16:13:57",
-      "checkout": "",
-      "status": "checkin"
+      "name": "Andika Hiro Pratama",
+      "checkin": "2023-11-02T15:30:00",
+      "checkout": "2023-11-03T16:08:14",
+      "status": "checkin",
+      "time": "15:30:00"
+    },
+    {
+      "id": 3,
+      "name": "Andika Hiro Pratama",
+      "checkin": "2023-11-02T15:30:00",
+      "checkout": "2023-11-03T16:04:17",
+      "status": "checkout",
+      "time": "15:30:00"
+    },
+    {
+      "id": 4,
+      "name": "Andika Hiro Pratama",
+      "checkin": "2023-11-02T15:30:00",
+      "checkout": "2023-11-03T16:04:04",
+      "status": "checkout",
+      "time": "15:30:00"
+    },
+    {
+      "id": 5,
+      "name": "Tono SUTONO",
+      "checkin": "2023-11-02T15:30:00",
+      "checkout": "2023-11-03T16:11:37",
+      "status": "checkout",
+      "time": "15:30:00"
+    },
+    {
+      "id": 6,
+      "name": "Tono SUTONO",
+      "checkin": "2023-11-02T15:30:00",
+      "checkout": "2023-11-03T16:14:31",
+      "status": "checkin",
+      "time": "15:30:00"
+    },
+    {
+      "id": 7,
+      "name": "Tono SUTONO",
+      "checkin": "2023-11-02T15:30:00",
+      "checkout": "2023-11-03T16:13:44",
+      "status": "checkin",
+      "time": "15:30:00"
+    },
+    {
+      "id": 8,
+      "name": "Tono SUTONO",
+      "checkin": "2023-11-02T15:30:00",
+      "checkout": "checkin",
+      "status": "",
+      "time": "15:30:00"
     }
   ]
 }
