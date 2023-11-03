@@ -2,6 +2,7 @@ import * as React from "react";
 import Form from "./pages/form";
 import Check from "./pages/check";
 import History from "./pages/history";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sidebar from "./components/sidebar";
 
 function App() {

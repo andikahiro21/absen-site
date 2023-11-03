@@ -12,6 +12,7 @@ import Divider from "@mui/material/Divider";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
+import PasswordIcon from '@mui/icons-material/Password';
 import { Link } from "react-router-dom";
 
 function Sidebar() {
@@ -66,12 +67,21 @@ function Sidebar() {
                 </ListItemButton>
               </Link>
 
-              <Link className="linkNone" to="/add-password">
+              <Link className="linkNone" to="/check">
                 <ListItemButton>
                   <ListItemIcon>
                     <HttpsIcon sx={{ color: "primary.main" }} />
                   </ListItemIcon>
-                  <ListItemText primary="Add Password" />
+                  <ListItemText primary="Check" />
+                </ListItemButton>
+              </Link>
+
+              <Link className="linkNone" to="/history">
+                <ListItemButton>
+                  <ListItemIcon>
+                    <HttpsIcon sx={{ color: "primary.main" }} />
+                  </ListItemIcon>
+                  <ListItemText primary="History" />
                 </ListItemButton>
               </Link>
             </Box>
@@ -91,7 +101,7 @@ function Sidebar() {
       </div>
       <div className="sidebar">
         <Link className="linkNone" to="/">
-          <h1>Password Manager</h1>
+          <h1>Absen</h1>
         </Link>
         <ul>
           <Link className="linkNone" to="/">
@@ -100,12 +110,18 @@ function Sidebar() {
               Home
             </li>
           </Link>
-          <Link className="linkNone" to="/add-password">
+          <Link className="linkNone" to="/check">
             <li>
               <img src={PasswordIcon} alt="" />
-              Add Password
+              Check
             </li>
-          </Link>
+          </Link> 
+          <Link className="linkNone" to="/history">
+            <li>
+              <img src={PasswordIcon} alt="" />
+              History
+            </li>
+          </Link> 
         </ul>
       </div>
     </div>
