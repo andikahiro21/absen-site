@@ -1,3 +1,26 @@
 .history {
   background-color: white;
+  margin-left: 158px;
+  display: flex;
+  justify-content: center;
+}
+.history .isi-konten {
+  margin-top: 120px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
+  height: 70vh;
+  width: 80vh;
+  overflow-x: scroll;
+}
+
+@media (max-width: 600px) {
+  .history {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .isi-konten {
+    margin-top: 120px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
 }/*# sourceMappingURL=history.css.map */
