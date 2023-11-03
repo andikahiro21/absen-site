@@ -9,7 +9,7 @@ function Form() {
   const [absents, setAbsents] = useState([]);
   const [forms , setForms] = useState({
     id : "",
-    nama : "",
+    name : "",
     checkin : "",
     checkout : "",
     status :"",
@@ -39,7 +39,7 @@ function Form() {
     try {
       const data = {
         id : forms.id,
-        nama : forms.nama,
+        name : forms.name,
         checkin : forms.checkin,
         checkout :  forms.checkout,
         status : 'checkin',
@@ -52,7 +52,7 @@ function Form() {
   
       // Clear the form input fields
       setForms({
-        nama: "",
+        name: "",
         checkin: "",
         checkout: "",
         category: "",
@@ -81,9 +81,9 @@ function Form() {
                 <div className="label-name">Nama: </div>
                 <input
                   type="text"
-                  name="nama"
-                  value={forms.nama}
-                  placeholder="nama"
+                  name="name"
+                  value={forms.name}
+                  placeholder="name"
                   onChange={handleFormChange}
                 />
               </div>

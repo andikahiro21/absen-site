@@ -62,6 +62,41 @@
       "checkout": "checkin",
       "status": "",
       "time": "15:30:00"
+    },
+    {
+      "id": 9,
+      "nama": "M Daffa ZW",
+      "checkin": "2023-11-03T16:30:01",
+      "checkout": "",
+      "status": "checkin"
+    },
+    {
+      "id": 10,
+      "checkin": "2023-11-03T16:31:15",
+      "checkout": "",
+      "status": "checkin"
+    },
+    {
+      "id": 11,
+      "nama": "",
+      "checkin": "2023-11-03T16:32:07",
+      "checkout": "",
+      "status": "checkin"
+    },
+    {
+      "id": 12,
+      "nama": "Muhammad Daffa ZW",
+      "checkin": "2023-11-03T16:33:01",
+      "checkout": "",
+      "status": "checkin"
+    },
+    {
+      "id": 13,
+      "name": "Muhammad Daffa ZW",
+      "checkin": "2023-11-03T16:33:48",
+      "checkout": "2023-11-03T16:35:22",
+      "status": "checkout",
+      "time": "16:33:48"
     }
   ]
 }

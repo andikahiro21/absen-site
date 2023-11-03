@@ -9,7 +9,7 @@ function CardComponent(props) {
   const item = props.item;
   const checkout = props.checkout;
   return (
-    <Card className="card" sx={{ background: "#6d4772", maxWidth: 200, height: 260 }} key={item.id}>
+    <Card className="card" sx={{ background: "#6d4772", maxWidth: 200, height: 280 }} key={item.id}>
       <CardMedia sx={{ height: 140 }} image={PasswordImage} title={item.title} />
       <CardContent className="cardContent">
         <h1>{item.name}</h1>

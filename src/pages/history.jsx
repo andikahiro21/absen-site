@@ -94,7 +94,7 @@ function History() {
                     sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
                   >
                     <TableCell align="right">{index + 1}</TableCell>
-                    <TableCell align="right">{el.nama}</TableCell>
+                    <TableCell align="right">{el.name}</TableCell>
                     <TableCell align="right">{el.status}</TableCell>
                     <TableCell align="right">{el.checkin}</TableCell>
                     <TableCell align="right">{el.checkout}</TableCell>
