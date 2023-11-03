@@ -4,16 +4,15 @@
       "id": 1,
       "name": "Andika Hiro Pratama",
       "checkin": "2023-11-02T15:30:00",
-      "checkout": "2023-11-02T16:30:00",
+      "checkout": "",
       "status": "checkin"
     },
     {
       "id": 2,
       "name": "Andika Hiro Pratama",
       "checkin": "2023-11-02T15:30:00",
-      "checkout": "2023-11-03T16:08:14",
-      "status": "checkin",
-      "time": "15:30:00"
+      "checkout": "",
+      "status": "checkin"
     },
     {
       "id": 3,
