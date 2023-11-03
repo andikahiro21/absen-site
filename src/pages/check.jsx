@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/check.css";
 
 function Check() {
   return (

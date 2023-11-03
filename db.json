@@ -1,0 +1,11 @@
+{
+  "absent": [
+    {
+      "id": 1,
+      "name": "Andika Hiro Pratama",
+      "checkin": "2023-11-02T15:30:00",
+      "checkout": "2023-11-02T16:30:00",
+      "status": "checkout"
+    }
+  ]
+}
