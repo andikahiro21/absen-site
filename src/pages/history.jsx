@@ -23,7 +23,7 @@ function History() {
 
       if (response.status === 200) {
         alert('Data berhasil dihapus');
-
+        call()
       } else {
         alert('Gagal menghapus data');
       }
