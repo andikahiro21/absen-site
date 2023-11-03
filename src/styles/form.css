@@ -1,3 +1,35 @@
-.form {
-  background-color: white;
+.form-konten {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-konten .header-judul {
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+.form-konten .konten-isi {
+  max-width: 100px;
+  margin-left: 10%;
+  max-height: 200px;
+  z-index: 999;
+}
+.form-konten .konten-isi .mengisi-formulir .input-container .label-nama {
+  font-size: 20px;
+  color: blue;
+  margin-right: 20px;
+}
+
+@media (max-width: 600px) {
+  .form-konten {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+  }
+  .form-konten .header-judul {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
 }/*# sourceMappingURL=form.css.map */

@@ -1,3 +1,43 @@
 .history {
   background-color: white;
+  margin-left: 158px;
+  display: flex;
+  justify-content: center;
+
+  .isi-konten {
+    // background-color: red;
+    margin-top: 120px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+    height: 70vh;
+    width: 80vh;
+    overflow-x: scroll;
+  }
+}
+
+@media (max-width: 600px) {
+  .history {
+    // background-color: red;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .isi-konten {
+    // background-color: red;
+    margin-top: 120px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  // .isi-konten-kiri {
+  //   overflow-x: scroll;
+  //   max-height: 100%; /* Adjust the height as needed for small screens */
+  //   max-width: 100%; /* Adjust the width as needed for small screens */
+  // }
+
+  // .isi-konten-kanan {
+  //   margin-top: 40px;
+  //   max-height: 100%; /* Adjust the height as needed for small screens */
+  //   max-width: 100%; /* Adjust the width as needed for small screens */
+  // }
 }

@@ -1,3 +1,49 @@
-.form {
-  background-color: white;
+.form-konten {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .header-judul {
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+  }
+
+  .konten-isi {
+    max-width: 100px;
+    margin-left: 10%;
+    max-height: 200px;
+    z-index: 999;
+
+    .mengisi-formulir {
+      // display: inline;
+      // flex-direction: row;
+      .input-container {
+        // display: flex;
+        // flex-direction: row;
+        .label-nama {
+          font-size: 20px;
+          color: blue;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+
+}
+
+
+@media (max-width: 600px) {
+  .form-konten {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+
+    .header-judul {
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
+  }
 }
