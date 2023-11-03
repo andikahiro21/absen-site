@@ -97,6 +97,14 @@
       "checkout": "2023-11-03T16:35:22",
       "status": "checkout",
       "time": "16:33:48"
+    },
+    {
+      "id": 14,
+      "name": "Sudjatmiko Bin Handoko",
+      "checkin": "2023-11-03T16:40:25",
+      "checkout": "2023-11-03T16:40:33",
+      "status": "checkout",
+      "time": "16:40:25"
     }
   ]
 }

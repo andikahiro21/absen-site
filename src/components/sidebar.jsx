@@ -13,6 +13,8 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import PasswordIcon from '@mui/icons-material/Password';
+import CheckBoxIcon from '@mui/icons-material/CheckBox';
+import HistoryIcon from '@mui/icons-material/History';
 import { Link } from "react-router-dom";
 
 function Sidebar() {
@@ -70,7 +72,7 @@ function Sidebar() {
               <Link className="linkNone" to="/check">
                 <ListItemButton>
                   <ListItemIcon>
-                    <HttpsIcon sx={{ color: "primary.main" }} />
+                  <CheckBoxIcon/>
                   </ListItemIcon>
                   <ListItemText primary="Check" />
                 </ListItemButton>
@@ -79,7 +81,7 @@ function Sidebar() {
               <Link className="linkNone" to="/history">
                 <ListItemButton>
                   <ListItemIcon>
-                    <HttpsIcon sx={{ color: "primary.main" }} />
+                  <HistoryIcon/>
                   </ListItemIcon>
                   <ListItemText primary="History" />
                 </ListItemButton>
@@ -112,13 +114,13 @@ function Sidebar() {
           </Link>
           <Link className="linkNone" to="/check">
             <li>
-              <img src={PasswordIcon} alt="" />
+              <CheckBoxIcon/>
               Check
             </li>
           </Link> 
           <Link className="linkNone" to="/history">
             <li>
-              <img src={PasswordIcon} alt="" />
+            <HistoryIcon/>
               History
             </li>
           </Link> 
