@@ -1,0 +1,38 @@
+{
+  "absent": [
+    {
+      "id": 1,
+      "name": "Andika Hiro Pratama",
+      "checkin": "2023-11-02T15:30:00",
+      "checkout": "2023-11-02T16:30:00",
+      "status": "checkout"
+    },
+    {
+      "name": "Andika Hiro Pratama",
+      "checkin": "2023-11-02T15:30:00",
+      "status": "checkin",
+      "id": 2
+    },
+    {
+      "name": "Andika Hiro Pratama",
+      "checkin": "2023-11-02T15:30:00",
+      "checkout": "",
+      "status": "checkin",
+      "id": 3
+    },
+    {
+      "name": "test2",
+      "checkin": "",
+      "checkout": "",
+      "status": "checkin",
+      "id": 13
+    },
+    {
+      "name": "test",
+      "checkin": "2023-11-03T15:09:01",
+      "checkout": "",
+      "status": "checkin",
+      "id": 14
+    }
+  ]
+}
